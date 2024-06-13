@@ -1,3 +1,6 @@
+"""
+- https://python.langchain.com/v0.2/docs/tutorials/llm_chain/
+"""
 import dotenv
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_openai import ChatOpenAI

@@ -1,3 +1,6 @@
+"""
+- https://python.langchain.com/v0.2/docs/tutorials/chatbot/
+"""
 import dotenv
 from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
@@ -28,8 +31,6 @@ prompt = ChatPromptTemplate.from_messages([
 # })
 
 # print(resp3)
-
-""""""
 
 runnable_with_history = RunnableWithMessageHistory(prompt | model, get_session_history, input_messages_key="history")
 
