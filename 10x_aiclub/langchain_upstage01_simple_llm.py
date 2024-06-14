@@ -1,3 +1,7 @@
+"""
+- https://developers.upstage.ai/docs/apis/chat
+- https://www.youtube.com/watch?v=FouUOftcn70
+"""
 import os
 from dotenv import load_dotenv
 
