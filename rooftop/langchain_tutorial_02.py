@@ -1,5 +1,6 @@
 """
 - https://python.langchain.com/v0.2/docs/tutorials/chatbot/
+- https://www.youtube.com/watch?v=0PRmLRSi374
 """
 import dotenv
 from langchain_openai import ChatOpenAI

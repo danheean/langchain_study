@@ -1,5 +1,6 @@
 """
 - https://python.langchain.com/v0.2/docs/tutorials/llm_chain/
+- https://www.youtube.com/watch?v=5d_nxHxDlHE
 """
 import dotenv
 from langchain_core.prompts import ChatPromptTemplate
