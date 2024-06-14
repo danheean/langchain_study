@@ -17,14 +17,14 @@ html2text = "^2024.2.26"
 langchain-openai = "0.1.7"
 langchain = "0.2.3"
 langchain-community = "^0.2.1"
-pysqlite3-binary = "^0.5.2.post3"
-chromadb = "0.4.0"
 langchain-chroma = "^0.1.1"
 pygments = "^2.18.0"
 google-api-python-client = "^2.131.0"
 apify-client = "^1.7.0"
 langserve = "^0.2.2"
 sse-starlette = "^2.1.0"
+chromadb = "0.4.1"
+langgraph = "^0.0.68"
 
 
 [build-system]
