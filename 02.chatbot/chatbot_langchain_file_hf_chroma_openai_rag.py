@@ -1,4 +1,5 @@
 """
+- https://github.com/gilbutITbook/080413/blob/main/%EC%8B%A4%EC%8A%B5/5%EC%9E%A5/5_2_%EB%9E%AD%EC%B2%B4%EC%9D%B8%EA%B3%BC_%EC%B1%97GPT%EB%A1%9C_RAG_%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0.py
 
 """
 
