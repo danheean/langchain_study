@@ -1455,6 +1455,22 @@ pypdf = ">=4.2.0,<5.0.0"
 requests = ">=2.31.0,<3.0.0"
 
 [[package]]
+name = "langchainhub"
+version = "0.1.20"
+description = "The LangChain Hub API client"
+optional = false
+python-versions = "<4.0,>=3.8.1"
+files = [
+    {file = "langchainhub-0.1.20-py3-none-any.whl", hash = "sha256:b3cbb5b2d7d6f9c3f89748bcc74424d8030ed4ebca58b5f44e0b6d9f111e33eb"},
+    {file = "langchainhub-0.1.20.tar.gz", hash = "sha256:499fa8958233071f35750987f325005d16241bebd455163955b607c195c37f25"},
+]
+
+[package.dependencies]
+packaging = ">=23.2,<25"
+requests = ">=2,<3"
+types-requests = ">=2.31.0.2,<3.0.0.0"
+
+[[package]]
 name = "langgraph"
 version = "0.0.68"
 description = "langgraph"
@@ -3665,6 +3681,20 @@ watchdog = {version = ">=2.1.5", markers = "platform_system != \"Darwin\""}
 snowflake = ["snowflake-connector-python (>=2.8.0)", "snowflake-snowpark-python (>=0.9.0)"]
 
 [[package]]
+name = "streamlit-chat"
+version = "0.1.1"
+description = "A streamlit component, to make chatbots"
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "streamlit-chat-0.1.1.tar.gz", hash = "sha256:e5911c8e3d5bbdd444782a0eb46a5f0cf24247124eb165bcc2e759540767ac3c"},
+    {file = "streamlit_chat-0.1.1-py3-none-any.whl", hash = "sha256:bec918a6ff9d24fbc842d5a0e7c492e30e1ef71c3a72b94b0cb4be1a7300881e"},
+]
+
+[package.dependencies]
+streamlit = ">=0.63"
+
+[[package]]
 name = "sympy"
 version = "1.12.1"
 description = "Computer algebra system (CAS) in Python"
@@ -4090,6 +4120,20 @@ filelock = "*"
 build = ["cmake (>=3.20)", "lit"]
 tests = ["autopep8", "flake8", "isort", "numpy", "pytest", "scipy (>=1.7.1)", "torch"]
 tutorials = ["matplotlib", "pandas", "tabulate", "torch"]
+
+[[package]]
+name = "types-requests"
+version = "2.32.0.20240602"
+description = "Typing stubs for requests"
+optional = false
+python-versions = ">=3.8"
+files = [
+    {file = "types-requests-2.32.0.20240602.tar.gz", hash = "sha256:3f98d7bbd0dd94ebd10ff43a7fbe20c3b8528acace6d8efafef0b6a184793f06"},
+    {file = "types_requests-2.32.0.20240602-py3-none-any.whl", hash = "sha256:ed3946063ea9fbc6b5fc0c44fa279188bae42d582cb63760be6cb4b9d06c3de8"},
+]
+
+[package.dependencies]
+urllib3 = ">=2"
 
 [[package]]
 name = "typing-extensions"
@@ -4557,4 +4601,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.11,<3.13"
-content-hash = "6d4cb30a18d85583268790d4670f104a8db1fc2a707c2fc8ea56a02ceb0e47fb"
+content-hash = "942489918cca99970726d794d23f6489c8303796c5c9481061d199b530d1497c"
